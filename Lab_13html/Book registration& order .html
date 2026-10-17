@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Registration & Order Form</title>
+</head>
+
+<body>
+
+<h1>Book Registration & Order Form</h1>
+
+<form>
+
+    <label>Customer Name:</label>
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <br><br>
+
+    <label>Email Address:</label>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    <label>Mobile Number:</label>
+    <input type="tel" name="mobile" placeholder="Enter mobile number" required>
+    <br><br>
+
+    <label>Age:</label>
+    <input type="number" name="age" placeholder="Enter your age">
+    <br><br>
+
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="Enter password" required>
+    <br><br>
+
+    <label>Delivery Date:</label>
+    <input type="date" name="date">
+    <br><br>
+
+    <label>Preferred Delivery Time:</label>
+    <input type="time" name="time">
+    <br><br>
+
+    <label>Favorite Book Category:</label>
+    <select name="category" required>
+        <option value="">Select a category</option>
+        <option value="fiction">Fiction</option>
+        <option value="science">Science</option>
+        <option value="history">History</option>
+        <option value="children">Children's Books</option>
+    </select>
+    <br><br>
+
+    <label>Book Title:</label>
+    <input type="text" name="book" placeholder="Enter book title">
+    <br><br>
+
+    <label>Quantity:</label>
+    <input type="number" name="quantity" min="1" value="1">
+    <br><br>
+
+    <p>Preferred Payment Method:</p>
+
+    <input type="radio" name="payment" value="cash">
+    <label>Cash on Delivery</label>
+
+    <input type="radio" name="payment" value="online">
+    <label>Online Payment</label>
+
+    <br><br>
+
+    <p>Additional Services:</p>
+
+    <input type="checkbox" name="gift">
+    <label>Gift Wrapping</label>
+    <br>
+
+    <input type="checkbox" name="bookmark">
+    <label>Bookmark</label>
+    <br>
+
+    <input type="checkbox" name="express">
+    <label>Express Delivery</label>
+    <br>
+
+    <input type="checkbox" name="card">
+    <label>Greeting Card</label>
+
+    <br><br>
+
+    <label>Upload Reference Image/Document:</label>
+    <input type="file" name="file">
+    <br><br>
+
+    <label>Delivery Address:</label>
+    <br>
+    <textarea name="address" rows="5" cols="40"
+              placeholder="Enter your delivery address"></textarea>
+
+    <br><br>
+
+    <label>Special Instructions:</label>
+    <br>
+    <textarea name="instructions" rows="5" cols="40"
+              placeholder="Enter any special instructions"></textarea>
+
+    <br><br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
